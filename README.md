@@ -8,7 +8,6 @@ A **React-based frontend application** that dynamically generates **personalized
 - [Key Features](#key-features)
 - [Architecture Overview](#architecture-overview)
 - [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
 - [Authentication Flow](#authentication-flow)
 - [API Integration](#api-integration)
 - [How to Run](#how-to-run)
@@ -59,27 +58,7 @@ This separation ensures clean responsibilities and easier future expansion.
 - **HTML / CSS**
 - **JWT-based Authentication (via backend)**
 
-## Project Structure
 
-LearingPathGenrator-Frontend/
-│
-├── src/
-│ ├── api/ # API calls
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page-level components
-│ ├── store/ # Auth & global state
-│ ├── routes/ # Protected/Public routes
-│ ├── utils/ # Helper functions
-│ ├── App.jsx
-│ └── main.jsx
-│
-├── public/
-├── .env
-├── package.json
-└── README.md
-
-markdown
-Copy code
 
 ## Authentication Flow
 
